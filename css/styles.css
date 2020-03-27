@@ -30,3 +30,11 @@ body{
 .menu ul a li{
 	padding: 0px 10px;
 }
+.menu > a:nth-child(2){
+	display: inline-block;
+	position: relative;
+	width: 64px;
+	height: 64px;
+	top: -15px;
+	left: 92%;
+}
