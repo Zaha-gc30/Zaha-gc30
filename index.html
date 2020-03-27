@@ -24,11 +24,28 @@
 			<div class="b2">
 				<img src="img/av_256.png" alt="">
 				<form action="">
-					<button type="submit">Choose photo</button>
+					<button type="file">Choose photo</button>
 				</form>
 			</div>
-			<div class="b3"></div>
-			<div class="b4"></div>
+			<div class="b3">
+				<form action="">
+					<input type="text" name="text" maxlength="20" method="get" required placeholder="First name" pattern="[a-z]">
+					<input type="text" name="text" maxlength="20" method="get" required placeholder="Last name" pattern="[a-z]">
+					<input type="email" name="email" maxlength="40" method="get" required placeholder="Email">
+					<input type="text" name="text" maxlength="13" method="get" required placeholder="Phone Number" pattern="{12}-[0-9] {1}-[+]">
+					<input type="text" name="text" maxlength="20" method="get" required placeholder="Address" pattern="[a-z] {2}-[0-9]">
+					<input type="text" name="text" maxlength="20" method="get" required placeholder="FB link" pattern="[a-z]">
+					<button type="file">Save changes</button>
+				</form>
+			</div>
+			<div class="b4">
+				<form action="">
+					<input type="password" name="pswrd" minlength="20" maxlength="50" method="get" required placeholder="Old Password" pattern="[a-z]{15}-[0-9]{5}">
+					<input type="password" name="pswrd" minlength="20" maxlength="50" method="get" required placeholder="New Password" pattern="[a-z]{15}-[0-9]{5}">
+					<input type="password" name="pswrd" minlength="20" maxlength="50" method="get" required placeholder="Repeat Password" pattern="[a-z]{15}-[0-9]{5}">
+					<button type="file">Change password</button>
+				</form>
+			</div>
 		</div>
 	</div>
 </body>

@@ -53,7 +53,7 @@ body{
 	grid-template-rows:15% auto;
 	position: relative;
 	width: 80%;
-	height: 450px;
+	height: 500px;
 	left: 10%;
 }
 .b1{
@@ -96,4 +96,77 @@ grid-row: 1/2;
 	font-family: "Corbel";
 	font-size: 25px;
 	color: #ffffff;
+}
+.b3{
+	display: grid;
+}
+.b3 form{
+	display: grid;
+	grid-template-rows:repeat(7, 3fr);
+}
+.b3 form input{
+	position: relative;
+	left:10%;
+	top:15%;
+	width: 80%;
+	height: 35px;
+	font-size: 20px;
+	border: solid 1px;
+	border-color: #BDBDBDFF;
+}
+.b3 button{
+	position: relative;
+	top: 15%;
+	left: 10%;
+	width: 80%;
+	height: 40px;
+	background-color: #6C757DFF;
+	border-style: none;
+	border-radius: 10px;
+	font-family: "Corbel";
+	font-size: 25px;
+	color: #ffffff;
+}
+.b4{
+	display: grid;
+}
+.b4 form{
+	display: grid;
+	grid-template-rows:repeat(7, 3fr);
+}
+.b4 form input{
+	position: relative;
+	left:10%;
+	top:15%;
+	width: 80%;
+	height: 35px;
+	font-size: 20px;
+	border: solid 1px;
+	border-color: #BDBDBDFF;
+}
+.b4 button{
+	position: relative;
+	top: 15%;
+	left: 10%;
+	width: 80%;
+	height: 40px;
+	background-color: #6C757DFF;
+	border-style: none;
+	border-radius: 10px;
+	font-family: "Corbel";
+	font-size: 25px;
+	color: #ffffff;
+}
+.menu > ul a:hover{
+	color: #D2DFE9FF;
+}
+form input:hover{
+	background-color: #F4F4F4FF;
+	cursor: pointer;
+}
+input:focus{
+	background-color: #F4F4F4FF;
+}
+button:hover{
+	background-color: #555C62FF;
 }
