@@ -38,3 +38,62 @@ body{
 	top: -15px;
 	left: 92%;
 }
+.container h1{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 36px;
+	font-family: "Corbel";
+	color: #686273FF;
+}
+.block{
+	display: grid;
+	grid-template-columns: 256px 3fr 3fr;
+	grid-template-rows:15% auto;
+	position: relative;
+	width: 80%;
+	height: 450px;
+	left: 10%;
+}
+.b1{
+	display: inline-grid;
+	grid-template-columns: 256px 3fr 3fr;
+	grid-column: 1/4;
+	grid-row: 1/2;
+	background-color: #CCE5FFFF;
+	border-radius: 10px
+}
+.b1 > p{
+	display: inline-grid;
+	font-family: "Corbel";
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0px;
+	color: #465D89FF;
+}
+.b1 > p:nth-child(1){
+grid-column: 1/2;
+grid-row: 1/2;
+}
+.b1 > p:nth-child(2){
+grid-column: 2/3;
+grid-row: 1/2;
+}
+.b1 > p:nth-child(3){
+grid-column: 3/3;
+grid-row: 1/2;
+}
+.b2 button{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 256px;
+	height: 65px;
+	background-color: #6C757DFF;
+	border-style: none;
+	border-radius: 10px;
+	font-family: "Corbel";
+	font-size: 25px;
+	color: #ffffff;
+}
