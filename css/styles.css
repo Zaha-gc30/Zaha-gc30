@@ -9,4 +9,24 @@ body{
 	width: 100%;
 	height: 80px;
 	background-color: #1B5589FF;
+	background-image: url(../img/log1.png);
+	background-repeat: no-repeat;
+	background-position: 30px 5px;
+}
+.menu ul {
+	margin: 0px 0px;
+	list-style-type: none;
+	position: relative;
+	top: 25px;
+	left: 90px;
+}
+.menu ul a{
+	display: inline-block;
+	text-decoration: none;
+	font-family: "Arial";
+	font-size: 20px;
+	color: #7295B5FF;
+}
+.menu ul a li{
+	padding: 0px 10px;
 }
